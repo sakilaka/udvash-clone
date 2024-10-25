@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Header & Carousel Slider</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="assets/responsive.css">
+
+    <style>
+
+    </style>
+</head>
+
+<body>
+
+    <header class="container px-5">
+        <div class="logo ms-5">
+            <img src="/assets/images/prismlogo.svg" alt="Logo">
+        </div>
+        <div class="menu pe-5">
+            <a href="#">প্রোগ্রামসমূহ</a>
+            <a href="#">সাক্ষ্যগ্রহণ</a>
+            <!-- <a href="https://wa.me/yourwhatsappnumber" target="_blank">
+                <i class="fa fa-whatsapp fs-2" aria-hidden="true"></i>
+            </a> -->
+            <a href="#">
+                <img class="tel_image" src="/assets/images/tel.png" alt="">
+            </a>
+            <button>Join Now</button>
+        </div>
+        <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+    </header>
+
+    <section>
+        <!-- Bootstrap Carousel -->
+        <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item carouselSlider active">
+                    <div class="carousel-item-content">
+                        <img class="slider_image" src="/assets/images/slider/CKRUET23Top3Web.webp" alt="">
+
+                    </div>
+                </div>
+
+                <div class="carousel-item carouselSlider">
+                    <div class="carousel-item-content">
+                        <img class="slider_image" src="/assets/images/slider/MAP23Top32August27Web.webp" alt="">
+
+                    </div>
+                </div>
+                <div class="carousel-item carouselSlider">
+                    <div class="carousel-item-content">
+                        <img class="slider_image" src="/assets/images/slider/CKRUET23Top3Web.webp" alt="">
+
+                    </div>
+                </div>
+                <div class="carousel-item carouselSlider">
+                    <div class="carousel-item-content">
+                        <img class="slider_image" src="/assets/images/slider/HSCFRC25W1.webp" alt="">
+
+                    </div>
+                </div>
+            </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+    </section>
+
+    <!-- card section  -->
+
+    <section class="main_card-section">
+
+        <h1 class="text-center py-5">সময়োপযোগী প্রোগ্রামসমূহ</h1>
+
+
+        <div class="filter-section select_section">
+            <select class="form-select" aria-label="Select Class">
+                <option selected>All Class</option>
+                <option value="1">Class 9</option>
+                <option value="2">Class 10</option>
+                <option value="3">Class 11</option>
+            </select>
+
+            <select class="form-select" aria-label="Select Program">
+                <option selected>All Program</option>
+                <option value="1">Online</option>
+                <option value="2">Offline</option>
+            </select>
+
+            <select class="form-select" aria-label="Select Type">
+                <option selected>All Type</option>
+                <option value="1">Paid</option>
+                <option value="2">Free</option>
+            </select>
+        </div>
+
+        <!-- Cards Section -->
+        <div class="container">
+            <div class="row card-section">
+                <div class="col-lg-4 col-md-6 col-sm-12 card">
+                    <img class="card-img-top mt-2" src="/assets/images/card_image/8FPC24.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="fw-bold mb-3">HSC 2025 ফাইনাল রিভিশন কোর্স & প্রি-এডমিশন কোর্স</h5>
+
+                        <ul>
+                            <li>সকল বিষয়ে Concept + CQ + MCQ রিভিশন</li>
+                            <li>২০০+ স্মার্টবোর্ড লাইভ ক্লাস</li>
+                            <li>৩০০+ কোচিং MCQ ইক্যুয়াল</li>
+                            <li>প্রোগ্রামের Pre-এডমিশন ক্লাস-প্যাকেজ</li>
+                            <li>প্রোগ্রামের Pre-এডমিশন ক্লাস-প্যাকেজ</li>
+                            <li>প্রোগ্রামের Pre-এডমিশন ক্লাস-প্যাকেজ</li>
+                        </ul>
+                    </div>
+                    <div class="card-footer d-flex justify-content-between">
+                        <button class="card_primary_btn">Details/Routine</button>
+                        <button class="card_highlight_btn">Enroll Now</button>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-12 card">
+                    <div>
+                        <img class="card-img-top mt-2" src="/assets/images/card_image/4__20241012203929.webp"
+                            alt="Card image cap">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="fw-bold mb-3">HSC 2025 ফাইনাল রিভিশন কোর্স & প্রি-এডমিশন কোর্স</h5>
+
+                        <ul>
+                            <li>সকল বিষয়ে Concept + CQ + MCQ রিভিশন</li>
+                            <li>২০০+ স্মার্টবোর্ড লাইভ ক্লাস</li>
+                            <li>৩০০+ কোচিং MCQ ইক্যুয়াল</li>
+                            <li>প্রোগ্রামের Pre-এডমিশন ক্লাস-প্যাকেজ</li>
+                            <li>প্রোগ্রামের Pre-এডমিশন ক্লাস-প্যাকেজ</li>
+                            <li>প্রোগ্রামের Pre-এডমিশন ক্লাস-প্যাকেজ</li>
+                        </ul>
+                    </div>
+                    <div class="card-footer d-flex justify-content-between">
+                        <button class="card_primary_btn">Details/Routine</button>
+                        <button class="card_highlight_btn">Enroll Now</button>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-12 card">
+                    <img class="card-img-top mt-2" src="/assets/images/card_image/SSC25MTPO.png" alt="Card image cap">
+
+                    <div class="card-body">
+                        <h5 class="fw-bold mb-3">HSC 2025 ফাইনাল রিভিশন কোর্স & প্রি-এডমিশন কোর্স</h5>
+                        <ul>
+                            <li>সকল বিষয়ে Concept + CQ + MCQ রিভিশন</li>
+                            <li>২০০+ স্মার্টবোর্ড লাইভ ক্লাস</li>
+                            <li>৩০০+ কোচিং MCQ ইক্যুয়াল</li>
+                            <li>প্রোগ্রামের Pre-এডমিশন ক্লাস-প্যাকেজ</li>
+                            <li>প্রোগ্রামের Pre-এডমিশন ক্লাস-প্যাকেজ</li>
+                            <li>প্রোগ্রামের Pre-এডমিশন ক্লাস-প্যাকেজ</li>
+                        </ul>
+                    </div>
+                    <div class="card-footer d-flex justify-content-between">
+                        <button class="card_primary_btn">Details/Routine</button>
+                        <button class="card_highlight_btn">Enroll Now</button>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-12 card">
+                    <img class="card-img-top mt-2" src="/assets/images/card_image/SSC25MTPO.png" alt="Card image cap">
+
+                    <div class="card-body">
+                        <h5 class="fw-bold mb-3">HSC 2025 ফাইনাল রিভিশন কোর্স & প্রি-এডমিশন কোর্স</h5>
+                        <ul>
+                            <li>সকল বিষয়ে Concept + CQ + MCQ রিভিশন</li>
+                            <li>২০০+ স্মার্টবোর্ড লাইভ ক্লাস</li>
+                            <li>৩০০+ কোচিং MCQ ইক্যুয়াল</li>
+                            <li>প্রোগ্রামের Pre-এডমিশন ক্লাস-প্যাকেজ</li>
+                            <li>প্রোগ্রামের Pre-এডমিশন ক্লাস-প্যাকেজ</li>
+                            <li>প্রোগ্রামের Pre-এডমিশন ক্লাস-প্যাকেজ</li>
+                        </ul>
+                    </div>
+                    <div class="card-footer d-flex justify-content-between">
+                        <button class="card_primary_btn">Details/Routine</button>
+                        <button class="card_highlight_btn">Enroll Now</button>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 card">
+                    <img class="card-img-top mt-2" src="/assets/images/card_image/SSC25MTPO.png" alt="Card image cap">
+
+                    <div class="card-body">
+                        <h5 class="fw-bold mb-3">HSC 2025 ফাইনাল রিভিশন কোর্স & প্রি-এডমিশন কোর্স</h5>
+                        <ul>
+                            <li>সকল বিষয়ে Concept + CQ + MCQ রিভিশন</li>
+                            <li>২০০+ স্মার্টবোর্ড লাইভ ক্লাস</li>
+                            <li>৩০০+ কোচিং MCQ ইক্যুয়াল</li>
+                            <li>প্রোগ্রামের Pre-এডমিশন ক্লাস-প্যাকেজ</li>
+                            <li>প্রোগ্রামের Pre-এডমিশন ক্লাস-প্যাকেজ</li>
+                            <li>প্রোগ্রামের Pre-এডমিশন ক্লাস-প্যাকেজ</li>
+                        </ul>
+                    </div>
+                    <div class="card-footer d-flex justify-content-between">
+                        <button class="card_primary_btn">Details/Routine</button>
+                        <button class="card_highlight_btn">Enroll Now</button>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 card">
+                    <img class="card-img-top mt-2" src="/assets/images/card_image/SSC25MTPO.png" alt="Card image cap">
+
+                    <div class="card-body">
+                        <h5 class="fw-bold mb-3">HSC 2025 ফাইনাল রিভিশন কোর্স & প্রি-এডমিশন কোর্স</h5>
+                        <ul>
+                            <li>সকল বিষয়ে Concept + CQ + MCQ রিভিশন</li>
+                            <li>২০০+ স্মার্টবোর্ড লাইভ ক্লাস</li>
+                            <li>৩০০+ কোচিং MCQ ইক্যুয়াল</li>
+                            <li>প্রোগ্রামের Pre-এডমিশন ক্লাস-প্যাকেজ</li>
+                            <li>প্রোগ্রামের Pre-এডমিশন ক্লাস-প্যাকেজ</li>
+                            <li>প্রোগ্রামের Pre-এডমিশন ক্লাস-প্যাকেজ</li>
+                        </ul>
+                    </div>
+                    <div class="card-footer d-flex justify-content-between">
+                        <button class="card_primary_btn">Details/Routine</button>
+                        <button class="card_highlight_btn">Enroll Now</button>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 card">
+                    <img class="card-img-top mt-2" src="/assets/images/card_image/SSC25MTPO.png" alt="Card image cap">
+
+                    <div class="card-body">
+                        <h5 class="fw-bold mb-3">HSC 2025 ফাইনাল রিভিশন কোর্স & প্রি-এডমিশন কোর্স</h5>
+                        <ul>
+                            <li>সকল বিষয়ে Concept + CQ + MCQ রিভিশন</li>
+                            <li>২০০+ স্মার্টবোর্ড লাইভ ক্লাস</li>
+                            <li>৩০০+ কোচিং MCQ ইক্যুয়াল</li>
+                            <li>প্রোগ্রামের Pre-এডমিশন ক্লাস-প্যাকেজ</li>
+                            <li>প্রোগ্রামের Pre-এডমিশন ক্লাস-প্যাকেজ</li>
+                            <li>প্রোগ্রামের Pre-এডমিশন ক্লাস-প্যাকেজ</li>
+                        </ul>
+                    </div>
+                    <div class="card-footer d-flex justify-content-between">
+                        <button class="card_primary_btn">Details/Routine</button>
+                        <button class="card_highlight_btn">Enroll Now</button>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 card">
+                    <img class="card-img-top mt-2" src="/assets/images/card_image/SSC25MTPO.png" alt="Card image cap">
+
+                    <div class="card-body">
+                        <h5 class="fw-bold mb-3">HSC 2025 ফাইনাল রিভিশন কোর্স & প্রি-এডমিশন কোর্স</h5>
+                        <ul>
+                            <li>সকল বিষয়ে Concept + CQ + MCQ রিভিশন</li>
+                            <li>২০০+ স্মার্টবোর্ড লাইভ ক্লাস</li>
+                            <li>৩০০+ কোচিং MCQ ইক্যুয়াল</li>
+                            <li>প্রোগ্রামের Pre-এডমিশন ক্লাস-প্যাকেজ</li>
+                            <li>প্রোগ্রামের Pre-এডমিশন ক্লাস-প্যাকেজ</li>
+                            <li>প্রোগ্রামের Pre-এডমিশন ক্লাস-প্যাকেজ</li>
+                        </ul>
+                    </div>
+                    <div class="card-footer d-flex justify-content-between">
+                        <button class="card_primary_btn">Details/Routine</button>
+                        <button class="card_highlight_btn">Enroll Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+
+
+    <!-- Success section  -->
+
+    <section class="success_section">
+        <h1 class="text-center pt-5">অবাক করা সাফল্যগাঁথা</h1>
+
+        <div id="carouselSuccess" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item carouselSuccess active">
+                    <div class="carousel-item-content">
+                        <img class="success_image" src="/assets/images/success/BUET2310Top10Success.webp" alt="">
+
+                    </div>
+                </div>
+
+                <div class="carousel-item carouselSuccess">
+                    <div class="carousel-item-content">
+                        <img class="success_image" src="/assets/images/success/CKRUET23Top10Success.webp" alt="">
+
+                    </div>
+                </div>
+                <div class="carousel-item carouselSuccess">
+                    <div class="carousel-item-content">
+                        <img class="success_image" src="/assets/images/success/IUT23Top10Success.webp" alt="">
+
+                    </div>
+                </div>
+                <div class="carousel-item carouselSuccess">
+                    <div class="carousel-item-content">
+                        <img class="success_image" src="/assets/images/success/Med23Top50Success.webp" alt="">
+
+                    </div>
+                </div>
+            </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselSuccess" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselSuccess" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <div class="container custom-container mt-5">
+            <div class="row text-center">
+    
+                <div class="col-12 col-sm-6 col-lg-3 mb-4">
+                    <div class="stat-card">
+                        <img src="/assets/images/count/buet.webp" alt="BUET">
+                        <h3>1290+</h3>
+                        <p>২০২৩ BUET ভর্তি পরীক্ষায় মেধা তালিকায় প্রথম ৫০ এ ৫০ জনসহ ১৩০৯টি আসনের মধ্যে উত্তীর্ণ থেকে চান্স পেয়েছে সর্বমোট ১২৯০+ শিক্ষার্থী।</p>
+                    </div>
+                </div>
+    
+                <!-- Medical Card -->
+                <div class="col-12 col-sm-6 col-lg-3 mb-4">
+                    <div class="stat-card">
+                        <img src="/assets/images/count/CKRUET3.webp" alt="Medical">
+                        <h3>4750+</h3>
+                        <p>২০২৩ মেডিকেল ভর্তি পরীক্ষায় জাতীয় মেধার তালিকায় প্রথম ৫০ এ ৫০ জন সহ এবং DMC-তে ২৪১ জনসহ ৬৩৮০টি আসনের মধ্যে উত্তীর্ণ থেকে চান্স পেয়েছে সর্বমোট ৪৭৫০+ শিক্ষার্থী।</p>
+                    </div>
+                </div>
+    
+                <!-- Dhaka University Card -->
+                <div class="col-12 col-sm-6 col-lg-3 mb-4">
+                    <div class="stat-card">
+                        <img src="/assets/images/count/dhabi.webp" alt="Dhaka University">
+                        <h3>1800+</h3>
+                        <p>২০২৩ ঢাকা ‘ক’ ইউনিট ভর্তি পরীক্ষায় মেধা তালিকায় প্রথম ৫০ এ ৫০ জন সহ ১৮৫১টি আসনের মধ্যে উত্তীর্ণ থেকে চান্স পেয়েছে সর্বমোট ১৮০০+ শিক্ষার্থী।</p>
+                    </div>
+                </div>
+    
+                <!-- CKRUET Card -->
+                <div class="col-12 col-sm-6 col-lg-3 mb-4">
+                    <div class="stat-card">
+                        <img src="/assets/images/count/medical.webp" alt="CKRUET">
+                        <h3>3180+</h3>
+                        <p>২০২৩ CKRUET ভর্তি পরীক্ষায় মেধা তালিকায় প্রথম ৫০ এ ৫০ জন সহ ৩২৯৩টি আসনের মধ্যে উত্তীর্ণ থেকে চান্স পেয়েছে সর্বমোট ৩১৮০+ শিক্ষার্থী।</p>
+                    </div>
+                </div>
+    
+            </div>
+        </div>
+    
+
+    </section>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+        function toggleMenu() {
+            const menu = document.querySelector('header .menu');
+            menu.classList.toggle('active');
+        }
+    </script>
+
+</body>
+
+</html>

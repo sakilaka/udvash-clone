@@ -1,5 +1,19 @@
   /* Responsive for medium screens */
   @media (max-width: 768px) {
+    header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        gap: 200px;
+        align-items: center;
+        padding: 15px 30px;
+        background-color: #fff;
+        border-bottom: 2px solid #ddd;
+        z-index: 1000;
+    }
     header .menu {
         display: none;
     }
@@ -26,10 +40,28 @@
     header .menu.active a {
         margin: 10px 0;
     }
+    .success_padding{
+        padding: 3px 10px;
+    }
+    
 }
 
 /* Responsive for small screens */
 @media (max-width: 480px) {
+    header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        align-items: center;
+        padding: 15px 30px;
+        background-color: #fff;
+        border-bottom: 2px solid #ddd;
+        z-index: 1000;
+    }
     .carousel-item h1 {
         font-size: 2rem;
     }
@@ -41,6 +73,10 @@
     .carousel-item .offer {
         font-size: 1.5rem;
     }
+    .success_padding{
+        padding: 3px 5px;
+    }
+    
 }
 
 

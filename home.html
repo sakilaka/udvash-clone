@@ -20,11 +20,11 @@
 
 <body>
 
-    <header class="container px-5">
-        <div class="logo ms-5">
+    <header class="px-5">
+        <div class="logo">
             <img src="/assets/images/prismlogo.svg" alt="Logo">
         </div>
-        <div class="menu pe-5">
+        <div class="menu">
             <a href="#">প্রোগ্রামসমূহ</a>
             <a href="#">সাক্ষ্যগ্রহণ</a>
             <!-- <a href="https://wa.me/yourwhatsappnumber" target="_blank">
@@ -38,7 +38,7 @@
         <div class="menu-toggle" onclick="toggleMenu()">☰</div>
     </header>
 
-    <section>
+    <section class="carousel_section">
         <!-- Bootstrap Carousel -->
         <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
@@ -311,60 +311,222 @@
                 </div>
             </div>
 
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselSuccess" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <button class="carousel-control-prev margin_prev" type="button" data-bs-target="#carouselSuccess"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon margin_prev" aria-hidden="true"></span>
                 <span class="visually-hidden">Previous</span>
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselSuccess" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <button class="carousel-control-next " type="button" data-bs-target="#carouselSuccess" data-bs-slide="next">
+                <span class="carousel-control-next-icon margin_next" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
             </button>
         </div>
 
         <div class="container custom-container mt-5">
             <div class="row text-center">
-    
+
                 <div class="col-12 col-sm-6 col-lg-3 mb-4">
                     <div class="stat-card">
                         <img src="/assets/images/count/buet.webp" alt="BUET">
                         <h3>1290+</h3>
-                        <p>২০২৩ BUET ভর্তি পরীক্ষায় মেধা তালিকায় প্রথম ৫০ এ ৫০ জনসহ ১৩০৯টি আসনের মধ্যে উত্তীর্ণ থেকে চান্স পেয়েছে সর্বমোট ১২৯০+ শিক্ষার্থী।</p>
+                        <p>২০২৩ BUET ভর্তি পরীক্ষায় মেধা তালিকায় প্রথম ৫০ এ ৫০ জনসহ ১৩০৯টি আসনের মধ্যে উত্তীর্ণ থেকে
+                            চান্স পেয়েছে সর্বমোট ১২৯০+ শিক্ষার্থী।</p>
                     </div>
                 </div>
-    
+
                 <!-- Medical Card -->
                 <div class="col-12 col-sm-6 col-lg-3 mb-4">
                     <div class="stat-card">
                         <img src="/assets/images/count/CKRUET3.webp" alt="Medical">
                         <h3>4750+</h3>
-                        <p>২০২৩ মেডিকেল ভর্তি পরীক্ষায় জাতীয় মেধার তালিকায় প্রথম ৫০ এ ৫০ জন সহ এবং DMC-তে ২৪১ জনসহ ৬৩৮০টি আসনের মধ্যে উত্তীর্ণ থেকে চান্স পেয়েছে সর্বমোট ৪৭৫০+ শিক্ষার্থী।</p>
+                        <p>২০২৩ মেডিকেল ভর্তি পরীক্ষায় জাতীয় মেধার তালিকায় প্রথম ৫০ এ ৫০ জন সহ এবং DMC-তে ২৪১ জনসহ
+                            ৬৩৮০টি আসনের মধ্যে উত্তীর্ণ থেকে চান্স পেয়েছে সর্বমোট ৪৭৫০+ শিক্ষার্থী।</p>
                     </div>
                 </div>
-    
+
                 <!-- Dhaka University Card -->
                 <div class="col-12 col-sm-6 col-lg-3 mb-4">
                     <div class="stat-card">
                         <img src="/assets/images/count/dhabi.webp" alt="Dhaka University">
                         <h3>1800+</h3>
-                        <p>২০২৩ ঢাকা ‘ক’ ইউনিট ভর্তি পরীক্ষায় মেধা তালিকায় প্রথম ৫০ এ ৫০ জন সহ ১৮৫১টি আসনের মধ্যে উত্তীর্ণ থেকে চান্স পেয়েছে সর্বমোট ১৮০০+ শিক্ষার্থী।</p>
+                        <p>২০২৩ ঢাকা ‘ক’ ইউনিট ভর্তি পরীক্ষায় মেধা তালিকায় প্রথম ৫০ এ ৫০ জন সহ ১৮৫১টি আসনের মধ্যে
+                            উত্তীর্ণ থেকে চান্স পেয়েছে সর্বমোট ১৮০০+ শিক্ষার্থী।</p>
                     </div>
                 </div>
-    
+
                 <!-- CKRUET Card -->
                 <div class="col-12 col-sm-6 col-lg-3 mb-4">
                     <div class="stat-card">
                         <img src="/assets/images/count/medical.webp" alt="CKRUET">
                         <h3>3180+</h3>
-                        <p>২০২৩ CKRUET ভর্তি পরীক্ষায় মেধা তালিকায় প্রথম ৫০ এ ৫০ জন সহ ৩২৯৩টি আসনের মধ্যে উত্তীর্ণ থেকে চান্স পেয়েছে সর্বমোট ৩১৮০+ শিক্ষার্থী।</p>
+                        <p>২০২৩ CKRUET ভর্তি পরীক্ষায় মেধা তালিকায় প্রথম ৫০ এ ৫০ জন সহ ৩২৯৩টি আসনের মধ্যে উত্তীর্ণ
+                            থেকে চান্স পেয়েছে সর্বমোট ৩১৮০+ শিক্ষার্থী।</p>
                     </div>
                 </div>
-    
+
             </div>
         </div>
-    
 
     </section>
 
+
+    <section class="success_person">
+        <h1 class="text-center pt-5">সফল যারা, কেমন তারা?</h1>
+        <div class="mt-5">
+            <div class="row container m-auto success_padding">
+                <!-- Card 1 -->
+                <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                    <div class="card custom-card green-border">
+                        <div class="card-logo">
+                            <img src="/assets/images/prismlogo.svg" alt="Logo">
+                        </div>
+                        <div class="card-body">
+                            <img src="/assets/images/profile/BUET23PP1.webp" alt="Profile Image" class="profile-image">
+                            <h5 class="card-title">মোঃ আদনান আহমেদ তামিম</h5>
+                            <p class="card-subtitle">ভর্তি পরিক্ষা: ২০২৩-২৪</p>
+                            <h6 class="card-text">BUET ১ম</h6>
+                            <p class="card-description">
+                                আমার প্রিপারেশন মূলত অনলাইন ওরিয়েন্টেড ছিল। আমি ক্লাসগুলো সব অনলাইনেই করতাম তবে উইকলি,
+                                মান্থলি সহ সকল এক্সাম অফলাইনে দিতাম। এরসাথে আমি পরিপূর্ণ প্রস্তুতির জন্য সবগুলো ম্যারাথন
+                                ক্লাস করেছিলাম। এছাড়া উদ্ভাসের উইকলি, মডেল টেস্টগুলো দিয়ে আমি সহজেই একুরেসি চেক করে
+                                নিতাম। আর যে ভুলগুলো হতো সেগুলো আলাদা নোট করে পরবর্তীতে পরীক্ষার আগে রিভিশন দিতাম যেন
+                                ভুল না হয়। আমার মনে হয়, ভর্তি পরীক্ষায় সফল হতে নিজের প্রস্তুতির সকল গ্যাপ পূরণ করা জরুরি
+                                আর রেগুলার চর্চার কোনো বিকল্প নেই।
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                    <div class="card custom-card green-border">
+                        <div class="card-logo">
+                            <img src="/assets/images/prismlogo.svg" alt="Logo">
+                        </div>
+                        <div class="card-body">
+                            <img src="/assets/images/profile/BUET23PP1.webp" alt="Profile Image" class="profile-image">
+                            <h5 class="card-title">মোঃ আদনান আহমেদ তামিম</h5>
+                            <p class="card-subtitle">ভর্তি পরিক্ষা: ২০২৩-২৪</p>
+                            <h6 class="card-text">BUET ১ম</h6>
+                            <p class="card-description">
+                                আমার প্রিপারেশন মূলত অনলাইন ওরিয়েন্টেড ছিল। আমি ক্লাসগুলো সব অনলাইনেই করতাম তবে উইকলি,
+                                মান্থলি সহ সকল এক্সাম অফলাইনে দিতাম। এরসাথে আমি পরিপূর্ণ প্রস্তুতির জন্য সবগুলো ম্যারাথন
+                                ক্লাস করেছিলাম। এছাড়া উদ্ভাসের উইকলি, মডেল টেস্টগুলো দিয়ে আমি সহজেই একুরেসি চেক করে
+                                নিতাম। আর যে ভুলগুলো হতো সেগুলো আলাদা নোট করে পরবর্তীতে পরীক্ষার আগে রিভিশন দিতাম যেন
+                                ভুল না হয়। আমার মনে হয়, ভর্তি পরীক্ষায় সফল হতে নিজের প্রস্তুতির সকল গ্যাপ পূরণ করা জরুরি
+                                আর রেগুলার চর্চার কোনো বিকল্প নেই।
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                    <div class="card custom-card green-border">
+                        <div class="card-logo">
+                            <img src="/assets/images/prismlogo.svg" alt="Logo">
+                        </div>
+                        <div class="card-body">
+                            <img src="/assets/images/profile/BUET23PP1.webp" alt="Profile Image" class="profile-image">
+                            <h5 class="card-title">মোঃ আদনান আহমেদ তামিম</h5>
+                            <p class="card-subtitle">ভর্তি পরিক্ষা: ২০২৩-২৪</p>
+                            <h6 class="card-text">BUET ১ম</h6>
+                            <p class="card-description">
+                                আমার প্রিপারেশন মূলত অনলাইন ওরিয়েন্টেড ছিল। আমি ক্লাসগুলো সব অনলাইনেই করতাম তবে উইকলি,
+                                মান্থলি সহ সকল এক্সাম অফলাইনে দিতাম। এরসাথে আমি পরিপূর্ণ প্রস্তুতির জন্য সবগুলো ম্যারাথন
+                                ক্লাস করেছিলাম। এছাড়া উদ্ভাসের উইকলি, মডেল টেস্টগুলো দিয়ে আমি সহজেই একুরেসি চেক করে
+                                নিতাম। আর যে ভুলগুলো হতো সেগুলো আলাদা নোট করে পরবর্তীতে পরীক্ষার আগে রিভিশন দিতাম যেন
+                                ভুল না হয়। আমার মনে হয়, ভর্তি পরীক্ষায় সফল হতে নিজের প্রস্তুতির সকল গ্যাপ পূরণ করা জরুরি
+                                আর রেগুলার চর্চার কোনো বিকল্প নেই।
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                    <div class="card custom-card green-border">
+                        <div class="card-logo">
+                            <img src="/assets/images/prismlogo.svg" alt="Logo">
+                        </div>
+                        <div class="card-body">
+                            <img src="/assets/images/profile/BUET23PP1.webp" alt="Profile Image" class="profile-image">
+                            <h5 class="card-title">মোঃ আদনান আহমেদ তামিম</h5>
+                            <p class="card-subtitle">ভর্তি পরিক্ষা: ২০২৩-২৪</p>
+                            <h6 class="card-text">BUET ১ম</h6>
+                            <p class="card-description">
+                                আমার প্রিপারেশন মূলত অনলাইন ওরিয়েন্টেড ছিল। আমি ক্লাসগুলো সব অনলাইনেই করতাম তবে উইকলি,
+                                মান্থলি সহ সকল এক্সাম অফলাইনে দিতাম। এরসাথে আমি পরিপূর্ণ প্রস্তুতির জন্য সবগুলো ম্যারাথন
+                                ক্লাস করেছিলাম। এছাড়া উদ্ভাসের উইকলি, মডেল টেস্টগুলো দিয়ে আমি সহজেই একুরেসি চেক করে
+                                নিতাম। আর যে ভুলগুলো হতো সেগুলো আলাদা নোট করে পরবর্তীতে পরীক্ষার আগে রিভিশন দিতাম যেন
+                                ভুল না হয়। আমার মনে হয়, ভর্তি পরীক্ষায় সফল হতে নিজের প্রস্তুতির সকল গ্যাপ পূরণ করা জরুরি
+                                আর রেগুলার চর্চার কোনো বিকল্প নেই।
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                    <div class="card custom-card green-border">
+                        <div class="card-logo">
+                            <img src="/assets/images/prismlogo.svg" alt="Logo">
+                        </div>
+                        <div class="card-body">
+                            <img src="/assets/images/profile/BUET23PP1.webp" alt="Profile Image" class="profile-image">
+                            <h5 class="card-title">মোঃ আদনান আহমেদ তামিম</h5>
+                            <p class="card-subtitle">ভর্তি পরিক্ষা: ২০২৩-২৪</p>
+                            <h6 class="card-text">BUET ১ম</h6>
+                            <p class="card-description">
+                                আমার প্রিপারেশন মূলত অনলাইন ওরিয়েন্টেড ছিল। আমি ক্লাসগুলো সব অনলাইনেই করতাম তবে উইকলি,
+                                মান্থলি সহ সকল এক্সাম অফলাইনে দিতাম। এরসাথে আমি পরিপূর্ণ প্রস্তুতির জন্য সবগুলো ম্যারাথন
+                                ক্লাস করেছিলাম। এছাড়া উদ্ভাসের উইকলি, মডেল টেস্টগুলো দিয়ে আমি সহজেই একুরেসি চেক করে
+                                নিতাম। আর যে ভুলগুলো হতো সেগুলো আলাদা নোট করে পরবর্তীতে পরীক্ষার আগে রিভিশন দিতাম যেন
+                                ভুল না হয়। আমার মনে হয়, ভর্তি পরীক্ষায় সফল হতে নিজের প্রস্তুতির সকল গ্যাপ পূরণ করা জরুরি
+                                আর রেগুলার চর্চার কোনো বিকল্প নেই।
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                    <div class="card custom-card green-border">
+                        <div class="card-logo">
+                            <img src="/assets/images/prismlogo.svg" alt="Logo">
+                        </div>
+                        <div class="card-body">
+                            <img src="/assets/images/profile/BUET23PP1.webp" alt="Profile Image" class="profile-image">
+                            <h5 class="card-title">মোঃ আদনান আহমেদ তামিম</h5>
+                            <p class="card-subtitle">ভর্তি পরিক্ষা: ২০২৩-২৪</p>
+                            <h6 class="card-text">BUET ১ম</h6>
+                            <p class="card-description">
+                                আমার প্রিপারেশন মূলত অনলাইন ওরিয়েন্টেড ছিল। আমি ক্লাসগুলো সব অনলাইনেই করতাম তবে উইকলি,
+                                মান্থলি সহ সকল এক্সাম অফলাইনে দিতাম। এরসাথে আমি পরিপূর্ণ প্রস্তুতির জন্য সবগুলো ম্যারাথন
+                                ক্লাস করেছিলাম। এছাড়া উদ্ভাসের উইকলি, মডেল টেস্টগুলো দিয়ে আমি সহজেই একুরেসি চেক করে
+                                নিতাম। আর যে ভুলগুলো হতো সেগুলো আলাদা নোট করে পরবর্তীতে পরীক্ষার আগে রিভিশন দিতাম যেন
+                                ভুল না হয়। আমার মনে হয়, ভর্তি পরীক্ষায় সফল হতে নিজের প্রস্তুতির সকল গ্যাপ পূরণ করা জরুরি
+                                আর রেগুলার চর্চার কোনো বিকল্প নেই।
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Repeat similar structure for other cards -->
+            </div>
+        </div>
+
+    </section>
+
+    <!-- video-section  -->
+     
+    <section>
+        <div class="video-section">
+            <div class="container text-center">
+                <h2 class="video-title">BUET মেধাতালিকায় ১ম<br>কেমন ছিল তামিমের পথচলা?</h2>
+                <div class="video-container">
+                    <iframe 
+                        src="https://www.youtube.com/embed/YOUR_VIDEO_ID" 
+                        title="YouTube video" 
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen>
+                    </iframe>
+                </div>
+            </div>
+        </div>
+        
+    </section>
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>

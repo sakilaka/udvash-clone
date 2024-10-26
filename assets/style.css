@@ -1,20 +1,29 @@
 body {
     font-family: Arial, sans-serif;
+    margin-top: 81px;
 }
 
 /* Header section */
 header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 500px;
     align-items: center;
     padding: 15px 30px;
     background-color: #fff;
     border-bottom: 2px solid #ddd;
+    z-index: 1000;
 }
+
 
 header .logo {
     display: flex;
     align-items: center;
+    /* margin-left: 170px; */
 }
 
 header .logo img {
@@ -25,6 +34,7 @@ header .logo img {
 header .menu {
     display: flex;
     align-items: center;
+    /* margin-right: 200px; */
 }
 
 header .menu a {
@@ -45,6 +55,7 @@ header .menu button {
 header .menu-toggle {
     display: none;
 }
+
 
 /* Carousel section */
 .carouselSlider {
@@ -180,4 +191,111 @@ header .menu-toggle {
 .stat-card p {
     font-size: 1rem;
     color: #333;
+}
+.margin_prev{
+    margin-left: 82px;
+}
+.margin_next{
+    margin-left: -250px;
+}
+
+
+/* success card  */
+.success_person{
+    background-color: #fcd6df;
+}
+.success_padding{
+    padding: 3px 100px;
+}
+
+.custom-card {
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #fff;
+    position: relative;
+    border: 2px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.green-border { border-color: #b6df80; }
+.red-border { border-color: #ffc8c8; }
+.yellow-border { border-color: #ffe4a1; }
+
+.card-logo {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+
+.card-logo img {
+    width: 40px;
+    height: auto;
+}
+
+.profile-image {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 15px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    text-align: center;
+    color: #333;
+}
+
+.card-subtitle {
+    font-size: 1rem;
+    text-align: center;
+    color: #666;
+}
+
+.card-text {
+    font-size: 1.1rem;
+    color: #3f7e00; /* Color based on theme */
+    text-align: center;
+    font-weight: bold;
+}
+
+.card-description {
+    font-size: 0.9rem;
+    color: #333;
+    text-align: justify;
+}
+
+/* video  */
+
+.video-section {
+    background-color: #eef2ff;
+    padding: 30px 0;
+}
+
+.video-title {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #ff5733;
+    line-height: 1.4;
+}
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+    height: 0;
+    overflow: hidden;
+    max-width: 70%;
+    background-color: #000;
+    margin: 20px auto;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }

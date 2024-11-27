@@ -41,15 +41,16 @@ header .menu a {
     margin-right: 20px;
     text-decoration: none;
     color: #000;
+    font-weight: bold;
 }
 
 header .menu button {
     background-color: #8c0c2d;
     border: none;
-    padding: 10px 20px;
+    padding: 8px 30px;
     color: #fff;
     cursor: pointer;
-    border-radius: 5px;
+    border-radius: 25px;
 }
 
 header .menu-toggle {
@@ -64,6 +65,7 @@ header .menu-toggle {
     padding: 50px 0;
     text-align: center;
 }
+
 .carouselSuccess {
     /* background: linear-gradient(to right, #ef9304, #8c0c2d); */
     color: #fff;
@@ -72,7 +74,7 @@ header .menu-toggle {
 }
 
 .slider_image {
-    height: 620px;
+    height: 480px;
 }
 
 /* Cards section */
@@ -99,6 +101,7 @@ header .menu-toggle {
     gap: 20px;
     padding: 30px;
 }
+
 .main_card-section {
     background-color: rgb(249, 211, 249);
 }
@@ -106,7 +109,7 @@ header .menu-toggle {
 .card {
     width: 350px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-    border-radius: 10px;
+    border-radius: 20px;
 }
 
 .card-header {
@@ -138,29 +141,37 @@ header .menu-toggle {
 .card-footer .btn {
     margin: 0 10px;
 }
-.card_image{
-    width: 340px;
 
-}
-.card_primary_btn{
+.card_primary_btn {
     background-color: #8c0c2d;
     padding: 6px 18px;
     border-radius: 30px;
     color: white;
+    border: none;
 }
-.card_highlight_btn{
+
+.card_highlight_btn {
     background-color: #ef9304;
     padding: 6px 18px;
     border-radius: 30px;
     color: white;
+    border: none;
 }
 
-.tel_image{
+.card-img-top {
+    width: 348px;
+    margin-left: -12px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+
+.tel_image {
     width: 40px;
     padding: 5px;
 }
 
-.success_image{
+.success_image {
     height: 450px;
 }
 
@@ -192,19 +203,22 @@ header .menu-toggle {
     font-size: 1rem;
     color: #333;
 }
-.margin_prev{
+
+.margin_prev {
     margin-left: 82px;
 }
-.margin_next{
+
+.margin_next {
     margin-left: -250px;
 }
 
 
 /* success card  */
-.success_person{
+.success_person {
     background-color: #fcd6df;
 }
-.success_padding{
+
+.success_padding {
     padding: 3px 100px;
 }
 
@@ -217,9 +231,17 @@ header .menu-toggle {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.green-border { border-color: #b6df80; }
-.red-border { border-color: #ffc8c8; }
-.yellow-border { border-color: #ffe4a1; }
+.green-border {
+    border-color: #b6df80;
+}
+
+.red-border {
+    border-color: #ffc8c8;
+}
+
+.yellow-border {
+    border-color: #ffe4a1;
+}
 
 .card-logo {
     position: absolute;
@@ -257,7 +279,8 @@ header .menu-toggle {
 
 .card-text {
     font-size: 1.1rem;
-    color: #3f7e00; /* Color based on theme */
+    color: #3f7e00;
+    /* Color based on theme */
     text-align: center;
     font-weight: bold;
 }
@@ -276,20 +299,26 @@ header .menu-toggle {
 }
 
 .video-title {
-    font-size: 1.8rem;
     font-weight: bold;
     color: #ff5733;
     line-height: 1.4;
 }
 
+.video-title-h1 {
+    font-weight: bold;
+    color: #f97b0f;
+    line-height: 1.4;
+}
+
 .video-container {
     position: relative;
-    padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
-    height: 0;
+    height: 410px;
     overflow: hidden;
     max-width: 70%;
     background-color: #000;
-    margin: 20px auto;
+    margin: 0px auto;
+    width: 750px;
+    border-radius: 5px;
 }
 
 .video-container iframe {
@@ -298,4 +327,333 @@ header .menu-toggle {
     left: 0;
     width: 100%;
     height: 100%;
+}
+
+.other-service-section {
+    background-color: #f6faf2;
+}
+
+.other-service-title {
+    color: #74ae3a;
+    font-weight: bold;
+    padding-top: 35px;
+}
+
+.other-container {
+    width: 1100px;
+    margin: 80px auto;
+    gap: 65px 0px;
+    padding-bottom: 80px;
+}
+
+.other-img {
+    margin-left: 55px !important;
+}
+
+.desh-service-section {
+    width: 1100px;
+    margin: 80px auto;
+}
+
+.text-section {
+    margin: auto;
+}
+
+.text-h5 {
+    font-size: 40px;
+    font-weight: bold;
+    color: #74ae3a;
+}
+
+.text-span {
+    font-size: 30px;
+    font-weight: bold;
+    color: #74ae3a;
+}
+
+.text-p {
+    margin-top: 20px;
+    text-align: justify;
+}
+
+.texts-h5 {
+    font-size: 40px;
+    font-weight: bold;
+    color: #995699;
+}
+
+.texts-span {
+    font-size: 30px;
+    font-weight: bold;
+    color: #995699;
+}
+
+.texts-p {
+    margin-top: 20px;
+    text-align: justify;
+}
+
+.desh-img {
+    margin-left: 55px;
+}
+
+.last-service-section {
+    background-color: #fff6ff;
+    padding: 30px;
+}
+
+.last-container {
+    width: 1100px;
+    margin: 80px auto;
+
+}
+
+.footer-logo {
+    width: 200px;
+}
+
+footer p {
+    font-size: 13px;
+}
+
+/* footer{
+    position: fixed;
+} */
+
+
+.cardb {
+    border: none;
+    background-color: white;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.cardb-body {
+    padding: 15px 25px;
+}
+
+.cardb-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.cardb img {
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.cardb p {
+    margin: 0;
+    font-size: 1rem;
+    color: #333;
+    padding: 2px;
+}
+
+.branch {
+    background-color: #dd9623;
+}
+
+.branch-container {
+    width: 1100px;
+    margin: auto;
+}
+
+/* Style for the search input container */
+.search-container {
+    position: relative;
+    display: inline-block;
+}
+
+.search-input {
+    padding: 10px 35px 10px 15px;
+    /* Add space for the icon */
+    border: 2px solid white;
+    border-radius: 20px;
+    font-size: 14px;
+    outline: none;
+    background-color: #f0a329;
+    width: 170px;
+    color: white;
+}
+
+.search-icon {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    color: white;
+    font-size: 16px;
+    pointer-events: none;
+    /* Prevent interaction with the icon */
+}
+
+/* Style for the filter button */
+.filter-button {
+    background-color: #f0a329;
+    /* Purple color */
+    color: white;
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.filter-button i {
+    margin-left: 5px;
+}
+
+.filter-button:hover {
+    background-color: #bb7f1e;
+    /* Darker purple on hover */
+}
+
+.icon-phone {
+    background-color: rgb(37, 195, 37);
+    border-radius: 50px;
+    padding: 5px;
+    color: white;
+}
+
+
+.program-details {
+    background-color: #f0a329;
+    padding-bottom: 150px;
+}
+
+.white-container {
+    width: 1000px;
+    margin: auto;
+}
+
+.container-details {
+    color: white;
+    padding: 40px 20px;
+    border-radius: 8px;
+    width: 1000px;
+    margin: auto;
+}
+
+.title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+}
+
+.description {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.video-frame {
+    border-radius: 10px;
+}
+
+/* White Box Styling */
+.white-box {
+    position: relative;
+    top: -175px;
+    left: 3px;
+    background: #ffffff;
+    border-radius: 10px;
+}
+
+.nav-tabs .nav-link {
+    color: #f0a329;
+    font-weight: bold;
+}
+
+.nav-tabs .nav-link.active {
+    background-color: #f0a329;
+    color: white;
+}
+
+.read-btn {
+    background: linear-gradient(to right, #c74062, #8c0c2d);
+    border: none;
+    padding: 8px 30px;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 25px;
+}
+
+.branchDetailscontainer {
+    max-width: 960px;
+    margin: 40px auto;
+    background-color: #fff;
+    border-radius: 8px;
+    /* box-shadow: 2px 3px 20px rgba(0, 0, 0, 0.1); */
+    overflow: hidden;
+    padding: 50px;
+}
+
+.branchName {
+    background-color: #8c0c2d;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 24px;
+}
+
+/* Location Info Section */
+.location-info {
+    padding: 20px;
+}
+
+.location-info h2 {
+    margin: 0;
+    font-size: 20px;
+    color: #6a1b9a;
+    margin-bottom: 10px;
+}
+
+.location-info p {
+    margin: 0;
+    font-size: 16px;
+    color: #333;
+    line-height: 1.6;
+}
+
+.contact-info {
+    margin-top: 10px;
+    font-size: 16px;
+    display: flex;
+    gap: 5px;
+}
+
+.contact-info span {
+    display: flex;
+    align-items: center;
+}
+
+.contact-info span i {
+    color: #4caf50;
+    margin-right: 10px;
+}
+
+/* Map Section */
+.map-container {
+    position: relative;
+    width: 100%;
+    height: 400px;
+
+}
+
+.iframe-map {
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+.tab-pane {
+    display: none;
+}
+
+.tab-pane.show {
+    display: block;
+}
+
+.tab-content {
+    overflow: hidden;
 }
